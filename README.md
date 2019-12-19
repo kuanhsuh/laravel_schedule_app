@@ -8,5 +8,7 @@
 One Coach Has many Students
 
 ## Logs
-[] DB Setup
-[] Git init
+[] DB Setup 12/08
+[] Git init 12/08
+[] Setup FullCalendar js index 12/20
+[] Setup FullCalendar js create 12/20
