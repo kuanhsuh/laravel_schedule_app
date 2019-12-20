@@ -5,12 +5,17 @@
     <title>Laravel Fullcalender Add/Update/Delete Event Example Tutorial - Tutsmake.com</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
 </head>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.css" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"
-    integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.js"></script>
+
+<link href='https://unpkg.com/@fullcalendar/core@4.3.1/main.min.css' rel='stylesheet' />
+<link href='https://unpkg.com/@fullcalendar/daygrid@4.3.0/main.min.css' rel='stylesheet' />
+<link href='https://unpkg.com/@fullcalendar/timegrid@4.3.0/main.min.css' rel='stylesheet' />
+
+<script src='https://momentjs.com/downloads/moment.min.js'></script>
+<script src='https://unpkg.com/@fullcalendar/core@4.3.1/main.min.js'></script>
+<script src="https://unpkg.com/@fullcalendar/interaction@4.3.0/main.min.js"></script>
+<script src='https://unpkg.com/@fullcalendar/daygrid@4.3.0/main.min.js'></script>
+<script src='https://unpkg.com/@fullcalendar/timegrid@4.3.0/main.min.js'></script>
+
 
 <body>
 

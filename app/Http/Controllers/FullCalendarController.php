@@ -15,7 +15,8 @@ class FullCalendarController extends Controller
             $start = (!empty($_GET["start"])) ? ($_GET["start"]) : ('');
             $end = (!empty($_GET["end"])) ? ($_GET["end"]) : ('');
 
-            $data = Event::whereDate('start', '>=', $start)->whereDate('end',   '<=', $end)->get(['id','title','start', 'end']);
+            // $data = Event::whereDate('start', '>=', $start)->whereDate('end',   '<=', $end)->get(['id','title','start', 'end']);
+            $data = Event::select('id','title','start', 'end')->get();
             return Response::json($data);
         }
         return view('fullcalendar');

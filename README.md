@@ -12,3 +12,4 @@ One Coach Has many Students
 [] Git init 12/08
 [] Setup FullCalendar js index 12/20
 [] Setup FullCalendar js create 12/20
+[] Upgrade to FullCalendar JS setup view 12/20
